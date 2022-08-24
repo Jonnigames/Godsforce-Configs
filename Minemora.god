@@ -1,6 +1,6 @@
 {
   "Creator": "Jonni",
-  "Date": 1660346158867,
+  "Date": 1661342816421,
   "AirStuck": {
     "toggled": false,
     "bypass": true,
@@ -12,13 +12,13 @@
     "values": {}
   },
   "AntiBot": {
-    "toggled": false,
+    "toggled": true,
     "bypass": false,
     "values": {
       "Health NaN Check": "false",
       "GroundCheck": "false",
       "GroundSpawnCheck": "false",
-      "Name Check": "false",
+      "Name Check": "true",
       "TeamColorCheck": "false",
       "TeamColorRGB": "-1",
       "Swing Check": "false",
@@ -123,7 +123,7 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Swing",
+      "Mode": "Tree.ac",
       "Swing-Packets": "100",
       "Intave13-Packets": "100",
       "Intave13-Range": "10"
@@ -150,7 +150,7 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Intave13",
+      "Mode": "Matrix6.6.1",
       "Intave13-Height": "3.0",
       "Matrix6.6.1-Boost": "1.9"
     }
@@ -182,7 +182,7 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Packets": "15",
+      "Packets": "4",
       "inAir": "false"
     }
   },
@@ -207,14 +207,17 @@
       "Spartan406-Boost": "0.01",
       "Vanilla-Speed": "0.05",
       "Vanilla-SpigotFlyKickBypass": "false",
-      "Minemora-Delay": "true",
+      "MinemoraTimerGlide": "true",
+      "MinemoraSlowGlide": "false",
+      "MinemoraTestGlide": "false",
+      "Minemora-Delay": "false",
       "Verus b1187-Boost": "false",
       "FastStop": "true",
-      "Bobbing": "false"
+      "Bobbing": "true"
     }
   },
   "Fucker": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Range": "7",
@@ -235,7 +238,7 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Intave Border",
+      "Mode": "Intave",
       "When sneak": "false"
     }
   },
@@ -289,6 +292,9 @@
       "Throw Delay": "125",
       "PreferSword": "true",
       "KeepTools": "true",
+      "Goldener Apfel Slot": "0",
+      "Block Slot 1": "0",
+      "Block Slot 2": "0",
       "Weapon Slot": "1",
       "Bow Slot": "0",
       "PickAxe Slot": "0",
@@ -307,7 +313,7 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Solid",
+      "Mode": "Karhu 2.2 169",
       "Intave13-SpeedBoost": "false",
       "Matrix6.0.3-Speed": "0.6"
     }
@@ -325,15 +331,15 @@
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "4.00",
-      "PreAim Range": "4.00",
-      "TargetMode": "Switch",
-      "PreferType": "",
+      "Range": "4.0",
+      "PreAim Range": "4.0",
+      "TargetMode": "Hybrid",
+      "PreferType": "Distance",
       "Switch Delay": "0",
       "Criticals": "false",
-      "Criticals-Mode": "",
+      "Criticals-Mode": "onGround",
       "AutoBlock": "false",
-      "AutoBlock-Mode": "",
+      "AutoBlock-Mode": "Intave",
       "Player": "true",
       "Animals": "false",
       "Villager": "false",
@@ -341,7 +347,7 @@
       "Ignore Death": "true",
       "Ignore Invisible": "true",
       "NoSwing": "false",
-      "NoSwing-Mode": "",
+      "NoSwing-Mode": "Vanilla",
       "Heuristics": "true",
       "Prediction": "true",
       "RayCast": "true",
@@ -367,16 +373,16 @@
       "Haze Range Adjustment": "0.5",
       "Max Haze Range": "1.0",
       "Rotations": "true",
-      "Clamp Yaw": "false",
-      "A3Fix": "false",
+      "Clamp Yaw": "true",
+      "A3Fix": "true",
       "ResetRotation": "false",
-      "Reset-Mode": "",
+      "Reset-Mode": "Silent",
       "BestVector": "true",
       "Inaccuracy": "0.0",
       "LockView": "false",
       "Necessary Rotations": "true",
-      "Necessary Mode": "",
-      "Near Rotate": "false",
+      "Necessary Mode": "Both",
+      "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "true",
       "FOV": "180",
@@ -390,7 +396,7 @@
     "values": {
       "Mode": "Redesky20220105",
       "Spartan439-Boost": "5.0",
-      "AGC2021-DamageMethod": "",
+      "AGC2021-DamageMethod": "Bow",
       "AGC2021-Boost": "3.4",
       "AGC2021-HurtTime": "6",
       "AGC2021-FastStop": "false",
@@ -410,7 +416,7 @@
   },
   "NoCobweb": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Mode": "Vanilla"
     }
@@ -431,8 +437,8 @@
     }
   },
   "NoJumpDelay": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {}
   },
   "NoPitchLimit": {
@@ -441,8 +447,8 @@
     "values": {}
   },
   "NoRotate": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {}
   },
   "NoSlowDown": {
@@ -452,7 +458,6 @@
       "Speed": "0.7",
       "CanSprint": "true",
       "OnlySword": "false",
-      "waterNoSlow": "false",
       "Spoofing": "false",
       "Spoof-Mode": ""
     }
@@ -481,8 +486,8 @@
     }
   },
   "PotionSaver": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {}
   },
   "Range": {
@@ -496,14 +501,14 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Packets": "100",
+      "Packets": "10",
       "inAir": "false",
       "Sneak": "false"
     }
   },
   "SafeWalk": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {}
   },
   "Scaffold": {
@@ -580,7 +585,7 @@
       "DynamicYaw": "false",
       "Static Pitch": "false",
       "Ignore Yaw": "false",
-      "Pitch": "90.0",
+      "Pitch": "82.0",
       "RandomizePitch": "false"
     }
   },
@@ -598,7 +603,7 @@
   },
   "ShopSaver": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Spoof": "false",
       "Silent Sprint": "false"
@@ -608,11 +613,12 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Delay": "4000",
-      "Custom Words": "false",
-      "Randomizing": "true",
-      "RandomChoose": "false",
-      "RandomNumbers": "false"
+      "Verzögerung": "4000",
+      "Rassistische Wörter": "true",
+      "Benutzerdefinierte Wörter": "false",
+      "Zufällig": "false",
+      "Zufallsauswahl": "false",
+      "Zufällige Zahlen": "false"
     }
   },
   "Speed": {
@@ -633,7 +639,7 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Intave13"
+      "Mode": "Karhu2.1.9 163-PRE"
     }
   },
   "Sprint": {
@@ -714,6 +720,13 @@
     "bypass": false,
     "values": {
       "Mode": "Intave13"
+    }
+  },
+  "WaterSpeed": {
+    "toggled": true,
+    "bypass": true,
+    "values": {
+      "Mode": "Minemora"
     }
   }
 }
