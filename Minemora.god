@@ -484,8 +484,8 @@
     }
   },
   "PotionSaver": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {}
   },
   "Range": {
