@@ -665,7 +665,7 @@
     "toggled": true,
     "bypass": true,
     "values": {
-      "Mode": "Intave13",
+      "Mode": "Minemora",
       "StepHeight": "2.0"
     }
   },
@@ -723,7 +723,7 @@
     }
   },
   "WaterSpeed": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Mode": "Minemora"
