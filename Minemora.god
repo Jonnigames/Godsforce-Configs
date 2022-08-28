@@ -13,7 +13,7 @@
   },
   "AntiBot": {
     "toggled": true,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Health NaN Check": "false",
       "GroundCheck": "false",
