@@ -220,8 +220,8 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Range": "7",
-      "Delay": "100",
+      "Range": "6",
+      "Delay": "300",
       "AutomaticDelay": "false",
       "RayCast": "false",
       "ThroughWalls": "true",
