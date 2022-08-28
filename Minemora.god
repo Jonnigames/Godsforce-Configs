@@ -34,8 +34,8 @@
     }
   },
   "AntiHunger": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {}
   },
   "AntiVoid": {
@@ -52,7 +52,7 @@
     "bypass": true,
     "values": {
       "Opened Inventory": "true",
-      "Start Delay": "50",
+      "Start Delay": "0",
       "Throw Delay": "100"
     }
   },
@@ -221,8 +221,8 @@
     "bypass": true,
     "values": {
       "Range": "7",
-      "Delay": "10",
-      "AutomaticDelay": "true",
+      "Delay": "100",
+      "AutomaticDelay": "false",
       "RayCast": "false",
       "ThroughWalls": "true",
       "Clamp Yaw": "true",
@@ -288,13 +288,11 @@
     "bypass": true,
     "values": {
       "OpenedInventory": "true",
-      "Start Delay": "50",
+      "Start Delay": "100",
       "Throw Delay": "125",
       "PreferSword": "true",
       "KeepTools": "true",
-      "Goldener Apfel Slot": "0",
-      "Block Slot 1": "0",
-      "Block Slot 2": "0",
+      "Goldener Apfel Slot": "3",
       "Weapon Slot": "1",
       "Bow Slot": "0",
       "PickAxe Slot": "0",
@@ -447,8 +445,8 @@
     "values": {}
   },
   "NoRotate": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {}
   },
   "NoSlowDown": {
@@ -508,7 +506,7 @@
   },
   "SafeWalk": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {}
   },
   "Scaffold": {
@@ -614,7 +612,7 @@
     "bypass": true,
     "values": {
       "Verzögerung": "4000",
-      "Rassistische Wörter": "true",
+      "Rassistische Wörter": "false",
       "Benutzerdefinierte Wörter": "false",
       "Zufällig": "false",
       "Zufallsauswahl": "false",
