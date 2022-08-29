@@ -420,10 +420,10 @@
     }
   },
   "NoFall": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
-      "Mode": "AAC4"
+      "Mode": "Mineplex"
     }
   },
   "NoHitSlow": {
@@ -521,7 +521,7 @@
       "Smooth Delay-Delay-Speed": "0.5",
       "Smooth Delay-RandomStrength": "0.85",
       "Smooth Delay-Randomizing": "false",
-      "Boost Mode": "None",
+      "Boost Mode": "none",
       "Motion-Speed": "1.0",
       "Blocks": "0",
       "Diagonal": "true",
@@ -530,9 +530,9 @@
       "CanUp-Check": "false",
       "DownScaffold": "true",
       "WorldHeightCheck": "false",
-      "Tower": "false",
-      "Tower-Mode": "",
-      "Tower-Motion": "0.42",
+      "Tower": "true",
+      "Tower-Mode": "Motion",
+      "Tower-Motion": "1.0",
       "Tower-VerusDisabler": "false",
       "Tower-WhileMoving": "false",
       "No Speed Effect": "false",
