@@ -3,7 +3,7 @@
   "Date": 1661786392864,
   "AirStuck": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {}
   },
   "AlwaysPlace": {
@@ -13,7 +13,7 @@
   },
   "AntiBot": {
     "toggled": true,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Health NaN Check": "false",
       "GroundCheck": "false",
@@ -49,7 +49,7 @@
   },
   "AutoArmor": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Opened Inventory": "true",
       "Start Delay": "0",
@@ -84,7 +84,7 @@
   },
   "Blink": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "DismountVehicle": "true",
       "OnlyMovePackets": "true"
@@ -104,7 +104,7 @@
   },
   "ChestStealer": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Start Delay": "50",
       "Grab Delay": "125",
@@ -478,7 +478,7 @@
   },
   "Phase": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Mode": "Minemora"
     }
@@ -601,7 +601,7 @@
   },
   "ShopSaver": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Spoof": "false",
       "Silent Sprint": "false"
@@ -611,12 +611,12 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Verzögerung": "4000",
-      "Rassistische Wörter": "false",
-      "Benutzerdefinierte Wörter": "false",
-      "Zufällig": "false",
+      "VerzÃ¶gerung": "1000",
+      "Rassistische WÃ¶rter": "false",
+      "Benutzerdefinierte WÃ¶rter": "false",
+      "ZufÃ¤llig": "false",
       "Zufallsauswahl": "false",
-      "Zufällige Zahlen": "false"
+      "ZufÃ¤llige Zahlen": "false"
     }
   },
   "Speed": {
@@ -722,7 +722,7 @@
   },
   "WaterSpeed": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Mode": "Minemora"
     }
