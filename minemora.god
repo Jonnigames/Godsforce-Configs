@@ -69,7 +69,7 @@
     }
   },
   "Backtrack": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Delay": "1000",
@@ -329,8 +329,8 @@
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "4.0",
-      "PreAim Range": "4.0",
+      "Range": "5.0",
+      "PreAim Range": "5.0",
       "TargetMode": "Hybrid",
       "PreferType": "Distance",
       "Switch Delay": "0",
